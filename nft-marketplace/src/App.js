@@ -72,27 +72,13 @@ function App() {
     },
   ];
 
-   let test_data;
-  const [name, setName] = useState('');
-  const renderCount = useRef(1);
-
-  const inputUseRef = useRef();
-  
-  useEffect(() => {
-   renderCount.current++;
-  })
-
-
+   l
   return (
     <>
       <div class="mainpage-container">
 
-        <input value={name} ref={inputUseRef}  onChange = {() => setName(inputUseRef.current.value) }  />
-        <div> My name is {name}</div>
-        <div>I rendered {renderCount.current} times</div>
-      <button onClick={() => inputUseRef.current.focus()}>Click me</button>
-
-        {/* <HeroSection />
+       
+        <HeroSection />
         <div class="mainpage-cards-section">{mainpage_cards()}</div>
         <div class="mainpage-text-section">
           <TextSection data={data[0]} />
@@ -112,7 +98,7 @@ function App() {
         <div class="mainpage-newsletter-section">
           <NewsletterSection />
         </div>
-        <div class="mainpage-footer-section"> <FooterSection /></div> */}
+        <div class="mainpage-footer-section"> <FooterSection /></div>
       </div>
     </>
   );
