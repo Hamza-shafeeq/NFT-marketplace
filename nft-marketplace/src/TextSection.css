@@ -1,0 +1,50 @@
+.TextSection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ts-img{
+  margin-top: -80px;
+}
+
+.ts-heading {
+  width: 676px;
+  height: 130px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -20px;
+
+  margin-bottom: 20px;
+}
+
+.ts-text {
+  width: 580px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* black/black-60 */
+
+  color: #898ca9;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-bottom: 20px;
+}

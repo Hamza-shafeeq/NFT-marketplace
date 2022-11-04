@@ -1,0 +1,64 @@
+
+
+.CardTextSection-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width:100vw; */
+    flex-direction: row;
+
+}
+
+.CardTextSection-text {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: red; */
+
+}
+
+.cts-text{
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    background-color: aqua; */
+}
+
+.ct-heading {
+    width: 480px;
+    height: 195px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 130%;
+    color: #ffffff;
+
+}
+
+.ct-text{
+    width: 480px;
+    height: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898ca9;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.CardTextSection-cards{
+    display: flex;
+    flex-direction: column;
+   
+}
+.ct-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
